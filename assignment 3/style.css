@@ -1,0 +1,21 @@
+.a{
+    border: 5px solid black;
+    margin: 100px;
+    
+}
+.b{
+    margin: 20px;
+    background-color: blue;
+    padding: 10px ;
+}
+#h{
+    size: 50px;
+    margin-left: 20px;
+}
+#i{
+    margin: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: yellow;
+    height: 50px;
+}
