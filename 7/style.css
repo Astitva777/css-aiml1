@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    border: solid 2px black;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    flex-wrap: wrap-reverse;
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 231, 152);
+    border: solid 2px black;
+    
+}
