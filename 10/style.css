@@ -1,0 +1,23 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   /*/*=== grid-template-columns: (1fr 1fr 1fr 1fr); */
+    grid-template-rows: repeat(5, 200px);     /*/*=== grid-template-rows: (200px 200px 200px); */
+    /* grid-template-areas: "header header header header"
+                            "content content content content"
+                            "sidebar sidebar sidebar sidebar"
+                            "footer footer footer footer"; */
+    gap: 10 px;
+
+}
+.item{
+   height: 150px;
+   width: 150px;
+   border: 1px solid black;
+   align-content: center;
+   background-color: violet;
+   text-align: center;
+}
